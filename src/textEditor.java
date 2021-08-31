@@ -87,6 +87,7 @@ public class textEditor extends JFrame {
 		mnBarra = new JMenuBar();
 
 		mnArquivo = new JMenu("Arquivo");
+		mnArquivo.setForeground(Color.BLUE);
 		mnArquivo.setMnemonic('A');
 		mnFontes = new JMenu("Fontes");
 		mnFontes.setMnemonic('F');
